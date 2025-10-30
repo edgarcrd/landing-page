@@ -74,7 +74,7 @@
   flex: 1;
   border: 2px solid gray;
   background-color: gray;
-  height: 100px;
+  height: 140px;
 }
 
 .section1 .title {
@@ -85,41 +85,80 @@
 }
 
 .section1 .text {
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: #E5E7EB;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
 }
 
 .section1 .button {
-  color: #3882F6;
+  background-color: #3882F6;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
-  border: 2px solid blue;
-  background-color: blue;
+  color: #E5E7EB;
   width: fit-content;
   border-radius: 5px;
   padding: 3px 20px;
 }
 
 .section2 {
-  background-color: peachpuff;
+  box-sizing: border-box;
   border: 4px solid blue;
-  height: 100px;
-  width: 800px;
+  height: 250px;
+  width: 900px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .section2 .title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-content: center;
   flex: 0.5;
 }
 
 .images {
+  box-sizing: border-box;
   width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   color: white;
   justify-content: space-evenly;
+}
+
+.images .test {
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100px;
+  height: 130px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.test .image {
+  border: 2px solid #3882F6;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.test .subtext {
+  color: #1F2937;
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
 }
 
 .section3 {
